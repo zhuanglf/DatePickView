@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45C34EF61F03A01F002DA744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C34EF51F03A01F002DA744 /* main.m */; };
+		45C34EF91F03A01F002DA744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C34EF81F03A01F002DA744 /* AppDelegate.m */; };
+		45C34EFC1F03A01F002DA744 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C34EFB1F03A01F002DA744 /* ViewController.m */; };
+		45C34EFF1F03A01F002DA744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C34EFD1F03A01F002DA744 /* Main.storyboard */; };
+		45C34F011F03A01F002DA744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C34F001F03A01F002DA744 /* Assets.xcassets */; };
+		45C34F041F03A01F002DA744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C34F021F03A01F002DA744 /* LaunchScreen.storyboard */; };
+		45C34F0F1F03A01F002DA744 /* DatePickViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C34F0E1F03A01F002DA744 /* DatePickViewTests.m */; };
+		45C34F1A1F03A01F002DA744 /* DatePickViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C34F191F03A01F002DA744 /* DatePickViewUITests.m */; };
+		45C34F311F03A3CD002DA744 /* WKDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C34F301F03A3CD002DA744 /* WKDatePickerView.m */; };
+		45C34F331F03A3D8002DA744 /* WKDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C34F321F03A3D8002DA744 /* WKDatePickerView.xib */; };
+		45C350801F03AEC1002DA744 /* NSDate+WKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C3507E1F03AEC1002DA744 /* NSDate+WKExtension.m */; };
+		45C350991F03AEF4002DA744 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C350831F03AEF4002DA744 /* UIImage+ImageEffects.m */; };
+		45C3509A1F03AEF4002DA744 /* UIView+WKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C350851F03AEF4002DA744 /* UIView+WKAutoLayout.m */; };
+		45C3509B1F03AEF4002DA744 /* WKActionSheetAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C350871F03AEF4002DA744 /* WKActionSheetAnimation.m */; };
+		45C3509C1F03AEF4002DA744 /* WKAlertAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C350891F03AEF4002DA744 /* WKAlertAnimation.m */; };
+		45C3509D1F03AEF4002DA744 /* WKAlertController+BlurEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C3508B1F03AEF4002DA744 /* WKAlertController+BlurEffects.m */; };
+		45C3509E1F03AEF4002DA744 /* WKAlertController+TransitionAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C3508C1F03AEF4002DA744 /* WKAlertController+TransitionAnimate.m */; };
+		45C3509F1F03AEF4002DA744 /* WKAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C3508E1F03AEF4002DA744 /* WKAlertController.m */; };
+		45C350A01F03AEF4002DA744 /* WKBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C350901F03AEF4002DA744 /* WKBaseAnimation.m */; };
+		45C350A11F03AEF4002DA744 /* WKDropDownNotificationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C350921F03AEF4002DA744 /* WKDropDownNotificationAnimation.m */; };
+		45C350A21F03AEF4002DA744 /* WKSliderFromLeftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C350941F03AEF4002DA744 /* WKSliderFromLeftAnimation.m */; };
+		45C350A31F03AEF4002DA744 /* WKSliderFromRightAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C350961F03AEF4002DA744 /* WKSliderFromRightAnimation.m */; };
+		45C350A41F03AEF4002DA744 /* WKTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C350981F03AEF4002DA744 /* WKTips.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45C34F0B1F03A01F002DA744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45C34EE91F03A01E002DA744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C34EF01F03A01E002DA744;
+			remoteInfo = DatePickView;
+		};
+		45C34F161F03A01F002DA744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45C34EE91F03A01E002DA744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C34EF01F03A01E002DA744;
+			remoteInfo = DatePickView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45C34EF11F03A01E002DA744 /* DatePickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C34EF51F03A01F002DA744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45C34EF71F03A01F002DA744 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45C34EF81F03A01F002DA744 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45C34EFA1F03A01F002DA744 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45C34EFB1F03A01F002DA744 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45C34EFE1F03A01F002DA744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45C34F001F03A01F002DA744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45C34F031F03A01F002DA744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45C34F051F03A01F002DA744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C34F0A1F03A01F002DA744 /* DatePickViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePickViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C34F0E1F03A01F002DA744 /* DatePickViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickViewTests.m; sourceTree = "<group>"; };
+		45C34F101F03A01F002DA744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C34F151F03A01F002DA744 /* DatePickViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePickViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C34F191F03A01F002DA744 /* DatePickViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickViewUITests.m; sourceTree = "<group>"; };
+		45C34F1B1F03A01F002DA744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C34F2F1F03A3CD002DA744 /* WKDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKDatePickerView.h; sourceTree = "<group>"; };
+		45C34F301F03A3CD002DA744 /* WKDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKDatePickerView.m; sourceTree = "<group>"; };
+		45C34F321F03A3D8002DA744 /* WKDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKDatePickerView.xib; sourceTree = "<group>"; };
+		45C3507D1F03AEC1002DA744 /* NSDate+WKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WKExtension.h"; sourceTree = "<group>"; };
+		45C3507E1F03AEC1002DA744 /* NSDate+WKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WKExtension.m"; sourceTree = "<group>"; };
+		45C3507F1F03AEC1002DA744 /* WKNSDateCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKNSDateCategory.h; sourceTree = "<group>"; };
+		45C350821F03AEF4002DA744 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		45C350831F03AEF4002DA744 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		45C350841F03AEF4002DA744 /* UIView+WKAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WKAutoLayout.h"; sourceTree = "<group>"; };
+		45C350851F03AEF4002DA744 /* UIView+WKAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WKAutoLayout.m"; sourceTree = "<group>"; };
+		45C350861F03AEF4002DA744 /* WKActionSheetAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKActionSheetAnimation.h; sourceTree = "<group>"; };
+		45C350871F03AEF4002DA744 /* WKActionSheetAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKActionSheetAnimation.m; sourceTree = "<group>"; };
+		45C350881F03AEF4002DA744 /* WKAlertAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKAlertAnimation.h; sourceTree = "<group>"; };
+		45C350891F03AEF4002DA744 /* WKAlertAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKAlertAnimation.m; sourceTree = "<group>"; };
+		45C3508A1F03AEF4002DA744 /* WKAlertController+BlurEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKAlertController+BlurEffects.h"; sourceTree = "<group>"; };
+		45C3508B1F03AEF4002DA744 /* WKAlertController+BlurEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKAlertController+BlurEffects.m"; sourceTree = "<group>"; };
+		45C3508C1F03AEF4002DA744 /* WKAlertController+TransitionAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKAlertController+TransitionAnimate.m"; sourceTree = "<group>"; };
+		45C3508D1F03AEF4002DA744 /* WKAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKAlertController.h; sourceTree = "<group>"; };
+		45C3508E1F03AEF4002DA744 /* WKAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKAlertController.m; sourceTree = "<group>"; };
+		45C3508F1F03AEF4002DA744 /* WKBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKBaseAnimation.h; sourceTree = "<group>"; };
+		45C350901F03AEF4002DA744 /* WKBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKBaseAnimation.m; sourceTree = "<group>"; };
+		45C350911F03AEF4002DA744 /* WKDropDownNotificationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKDropDownNotificationAnimation.h; sourceTree = "<group>"; };
+		45C350921F03AEF4002DA744 /* WKDropDownNotificationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKDropDownNotificationAnimation.m; sourceTree = "<group>"; };
+		45C350931F03AEF4002DA744 /* WKSliderFromLeftAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKSliderFromLeftAnimation.h; sourceTree = "<group>"; };
+		45C350941F03AEF4002DA744 /* WKSliderFromLeftAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKSliderFromLeftAnimation.m; sourceTree = "<group>"; };
+		45C350951F03AEF4002DA744 /* WKSliderFromRightAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKSliderFromRightAnimation.h; sourceTree = "<group>"; };
+		45C350961F03AEF4002DA744 /* WKSliderFromRightAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKSliderFromRightAnimation.m; sourceTree = "<group>"; };
+		45C350971F03AEF4002DA744 /* WKTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTips.h; sourceTree = "<group>"; };
+		45C350981F03AEF4002DA744 /* WKTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTips.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C34EEE1F03A01E002DA744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C34F071F03A01F002DA744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C34F121F03A01F002DA744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45C34EE81F03A01E002DA744 = {
+			isa = PBXGroup;
+			children = (
+				45C34EF31F03A01F002DA744 /* DatePickView */,
+				45C34F0D1F03A01F002DA744 /* DatePickViewTests */,
+				45C34F181F03A01F002DA744 /* DatePickViewUITests */,
+				45C34EF21F03A01E002DA744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45C34EF21F03A01E002DA744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45C34EF11F03A01E002DA744 /* DatePickView.app */,
+				45C34F0A1F03A01F002DA744 /* DatePickViewTests.xctest */,
+				45C34F151F03A01F002DA744 /* DatePickViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45C34EF31F03A01F002DA744 /* DatePickView */ = {
+			isa = PBXGroup;
+			children = (
+				45C350811F03AEF4002DA744 /* WKAlertController */,
+				45C3507C1F03AEC1002DA744 /* NSDate */,
+				45C34EF71F03A01F002DA744 /* AppDelegate.h */,
+				45C34EF81F03A01F002DA744 /* AppDelegate.m */,
+				45C34EFA1F03A01F002DA744 /* ViewController.h */,
+				45C34EFB1F03A01F002DA744 /* ViewController.m */,
+				45C34EFD1F03A01F002DA744 /* Main.storyboard */,
+				45C34F001F03A01F002DA744 /* Assets.xcassets */,
+				45C34F021F03A01F002DA744 /* LaunchScreen.storyboard */,
+				45C34F051F03A01F002DA744 /* Info.plist */,
+				45C34EF41F03A01F002DA744 /* Supporting Files */,
+				45C34F2F1F03A3CD002DA744 /* WKDatePickerView.h */,
+				45C34F301F03A3CD002DA744 /* WKDatePickerView.m */,
+				45C34F321F03A3D8002DA744 /* WKDatePickerView.xib */,
+			);
+			path = DatePickView;
+			sourceTree = "<group>";
+		};
+		45C34EF41F03A01F002DA744 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45C34EF51F03A01F002DA744 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45C34F0D1F03A01F002DA744 /* DatePickViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				45C34F0E1F03A01F002DA744 /* DatePickViewTests.m */,
+				45C34F101F03A01F002DA744 /* Info.plist */,
+			);
+			path = DatePickViewTests;
+			sourceTree = "<group>";
+		};
+		45C34F181F03A01F002DA744 /* DatePickViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45C34F191F03A01F002DA744 /* DatePickViewUITests.m */,
+				45C34F1B1F03A01F002DA744 /* Info.plist */,
+			);
+			path = DatePickViewUITests;
+			sourceTree = "<group>";
+		};
+		45C3507C1F03AEC1002DA744 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				45C3507D1F03AEC1002DA744 /* NSDate+WKExtension.h */,
+				45C3507E1F03AEC1002DA744 /* NSDate+WKExtension.m */,
+				45C3507F1F03AEC1002DA744 /* WKNSDateCategory.h */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		45C350811F03AEF4002DA744 /* WKAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				45C350821F03AEF4002DA744 /* UIImage+ImageEffects.h */,
+				45C350831F03AEF4002DA744 /* UIImage+ImageEffects.m */,
+				45C350841F03AEF4002DA744 /* UIView+WKAutoLayout.h */,
+				45C350851F03AEF4002DA744 /* UIView+WKAutoLayout.m */,
+				45C350861F03AEF4002DA744 /* WKActionSheetAnimation.h */,
+				45C350871F03AEF4002DA744 /* WKActionSheetAnimation.m */,
+				45C350881F03AEF4002DA744 /* WKAlertAnimation.h */,
+				45C350891F03AEF4002DA744 /* WKAlertAnimation.m */,
+				45C3508A1F03AEF4002DA744 /* WKAlertController+BlurEffects.h */,
+				45C3508B1F03AEF4002DA744 /* WKAlertController+BlurEffects.m */,
+				45C3508C1F03AEF4002DA744 /* WKAlertController+TransitionAnimate.m */,
+				45C3508D1F03AEF4002DA744 /* WKAlertController.h */,
+				45C3508E1F03AEF4002DA744 /* WKAlertController.m */,
+				45C3508F1F03AEF4002DA744 /* WKBaseAnimation.h */,
+				45C350901F03AEF4002DA744 /* WKBaseAnimation.m */,
+				45C350911F03AEF4002DA744 /* WKDropDownNotificationAnimation.h */,
+				45C350921F03AEF4002DA744 /* WKDropDownNotificationAnimation.m */,
+				45C350931F03AEF4002DA744 /* WKSliderFromLeftAnimation.h */,
+				45C350941F03AEF4002DA744 /* WKSliderFromLeftAnimation.m */,
+				45C350951F03AEF4002DA744 /* WKSliderFromRightAnimation.h */,
+				45C350961F03AEF4002DA744 /* WKSliderFromRightAnimation.m */,
+				45C350971F03AEF4002DA744 /* WKTips.h */,
+				45C350981F03AEF4002DA744 /* WKTips.m */,
+			);
+			path = WKAlertController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45C34EF01F03A01E002DA744 /* DatePickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C34F1E1F03A01F002DA744 /* Build configuration list for PBXNativeTarget "DatePickView" */;
+			buildPhases = (
+				45C34EED1F03A01E002DA744 /* Sources */,
+				45C34EEE1F03A01E002DA744 /* Frameworks */,
+				45C34EEF1F03A01E002DA744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatePickView;
+			productName = DatePickView;
+			productReference = 45C34EF11F03A01E002DA744 /* DatePickView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45C34F091F03A01F002DA744 /* DatePickViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C34F211F03A01F002DA744 /* Build configuration list for PBXNativeTarget "DatePickViewTests" */;
+			buildPhases = (
+				45C34F061F03A01F002DA744 /* Sources */,
+				45C34F071F03A01F002DA744 /* Frameworks */,
+				45C34F081F03A01F002DA744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45C34F0C1F03A01F002DA744 /* PBXTargetDependency */,
+			);
+			name = DatePickViewTests;
+			productName = DatePickViewTests;
+			productReference = 45C34F0A1F03A01F002DA744 /* DatePickViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45C34F141F03A01F002DA744 /* DatePickViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C34F241F03A01F002DA744 /* Build configuration list for PBXNativeTarget "DatePickViewUITests" */;
+			buildPhases = (
+				45C34F111F03A01F002DA744 /* Sources */,
+				45C34F121F03A01F002DA744 /* Frameworks */,
+				45C34F131F03A01F002DA744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45C34F171F03A01F002DA744 /* PBXTargetDependency */,
+			);
+			name = DatePickViewUITests;
+			productName = DatePickViewUITests;
+			productReference = 45C34F151F03A01F002DA744 /* DatePickViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45C34EE91F03A01E002DA744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "庄黎峰";
+				TargetAttributes = {
+					45C34EF01F03A01E002DA744 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 57GMXMXFA2;
+						ProvisioningStyle = Automatic;
+					};
+					45C34F091F03A01F002DA744 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 57GMXMXFA2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45C34EF01F03A01E002DA744;
+					};
+					45C34F141F03A01F002DA744 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 57GMXMXFA2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45C34EF01F03A01E002DA744;
+					};
+				};
+			};
+			buildConfigurationList = 45C34EEC1F03A01E002DA744 /* Build configuration list for PBXProject "DatePickView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45C34EE81F03A01E002DA744;
+			productRefGroup = 45C34EF21F03A01E002DA744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45C34EF01F03A01E002DA744 /* DatePickView */,
+				45C34F091F03A01F002DA744 /* DatePickViewTests */,
+				45C34F141F03A01F002DA744 /* DatePickViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45C34EEF1F03A01E002DA744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C34F041F03A01F002DA744 /* LaunchScreen.storyboard in Resources */,
+				45C34F011F03A01F002DA744 /* Assets.xcassets in Resources */,
+				45C34F331F03A3D8002DA744 /* WKDatePickerView.xib in Resources */,
+				45C34EFF1F03A01F002DA744 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C34F081F03A01F002DA744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C34F131F03A01F002DA744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C34EED1F03A01E002DA744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C3509F1F03AEF4002DA744 /* WKAlertController.m in Sources */,
+				45C350A21F03AEF4002DA744 /* WKSliderFromLeftAnimation.m in Sources */,
+				45C3509A1F03AEF4002DA744 /* UIView+WKAutoLayout.m in Sources */,
+				45C34F311F03A3CD002DA744 /* WKDatePickerView.m in Sources */,
+				45C3509C1F03AEF4002DA744 /* WKAlertAnimation.m in Sources */,
+				45C350A41F03AEF4002DA744 /* WKTips.m in Sources */,
+				45C34EFC1F03A01F002DA744 /* ViewController.m in Sources */,
+				45C3509D1F03AEF4002DA744 /* WKAlertController+BlurEffects.m in Sources */,
+				45C350A11F03AEF4002DA744 /* WKDropDownNotificationAnimation.m in Sources */,
+				45C350991F03AEF4002DA744 /* UIImage+ImageEffects.m in Sources */,
+				45C350A01F03AEF4002DA744 /* WKBaseAnimation.m in Sources */,
+				45C3509B1F03AEF4002DA744 /* WKActionSheetAnimation.m in Sources */,
+				45C34EF91F03A01F002DA744 /* AppDelegate.m in Sources */,
+				45C34EF61F03A01F002DA744 /* main.m in Sources */,
+				45C350801F03AEC1002DA744 /* NSDate+WKExtension.m in Sources */,
+				45C350A31F03AEF4002DA744 /* WKSliderFromRightAnimation.m in Sources */,
+				45C3509E1F03AEF4002DA744 /* WKAlertController+TransitionAnimate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C34F061F03A01F002DA744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C34F0F1F03A01F002DA744 /* DatePickViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C34F111F03A01F002DA744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C34F1A1F03A01F002DA744 /* DatePickViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45C34F0C1F03A01F002DA744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C34EF01F03A01E002DA744 /* DatePickView */;
+			targetProxy = 45C34F0B1F03A01F002DA744 /* PBXContainerItemProxy */;
+		};
+		45C34F171F03A01F002DA744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C34EF01F03A01E002DA744 /* DatePickView */;
+			targetProxy = 45C34F161F03A01F002DA744 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45C34EFD1F03A01F002DA744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C34EFE1F03A01F002DA744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45C34F021F03A01F002DA744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C34F031F03A01F002DA744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45C34F1C1F03A01F002DA744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45C34F1D1F03A01F002DA744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45C34F1F1F03A01F002DA744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57GMXMXFA2;
+				INFOPLIST_FILE = DatePickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhuangLifeng.DatePickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45C34F201F03A01F002DA744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57GMXMXFA2;
+				INFOPLIST_FILE = DatePickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhuangLifeng.DatePickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45C34F221F03A01F002DA744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 57GMXMXFA2;
+				INFOPLIST_FILE = DatePickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhuangLifeng.DatePickViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DatePickView.app/DatePickView";
+			};
+			name = Debug;
+		};
+		45C34F231F03A01F002DA744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 57GMXMXFA2;
+				INFOPLIST_FILE = DatePickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhuangLifeng.DatePickViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DatePickView.app/DatePickView";
+			};
+			name = Release;
+		};
+		45C34F251F03A01F002DA744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 57GMXMXFA2;
+				INFOPLIST_FILE = DatePickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhuangLifeng.DatePickViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DatePickView;
+			};
+			name = Debug;
+		};
+		45C34F261F03A01F002DA744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 57GMXMXFA2;
+				INFOPLIST_FILE = DatePickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhuangLifeng.DatePickViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DatePickView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C34EEC1F03A01E002DA744 /* Build configuration list for PBXProject "DatePickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C34F1C1F03A01F002DA744 /* Debug */,
+				45C34F1D1F03A01F002DA744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C34F1E1F03A01F002DA744 /* Build configuration list for PBXNativeTarget "DatePickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C34F1F1F03A01F002DA744 /* Debug */,
+				45C34F201F03A01F002DA744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45C34F211F03A01F002DA744 /* Build configuration list for PBXNativeTarget "DatePickViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C34F221F03A01F002DA744 /* Debug */,
+				45C34F231F03A01F002DA744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45C34F241F03A01F002DA744 /* Build configuration list for PBXNativeTarget "DatePickViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C34F251F03A01F002DA744 /* Debug */,
+				45C34F261F03A01F002DA744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45C34EE91F03A01E002DA744 /* Project object */;
+}
